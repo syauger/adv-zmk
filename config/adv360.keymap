@@ -64,7 +64,7 @@
  &trans  &trans  &trans  &kp C_PLAY_PAUSE  &kp C_FAST_FORWARD  &kp C_VOL_UP            &macro_max_screen                                                   &macro_left_half  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans   &trans   &trans   &trans
  &trans  &trans  &trans            &trans        &kp C_REWIND  &kp C_VOL_DN             &macro_norm_size  &trans  &trans                  &trans  &trans  &macro_right_half        &kp LEFT_BRACE        &kp RIGHT_BRACE  &trans   &trans   &trans   &trans
  &trans  &trans  &trans            &trans              &trans        &trans                                       &trans                  &trans                                 &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &trans   &trans   &trans   &trans
- &trans  &trans  &trans            &trans              &trans                                     &trans  &trans  &trans                  &trans  &trans             &trans                                       &trans  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans            &trans              &trans                                     &trans  &trans  &trans                  &trans  &trans             &trans                                       &macro_next_window  &trans   &trans   &trans   &trans
             >;
         };
 
