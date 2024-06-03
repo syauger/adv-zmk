@@ -3,8 +3,8 @@ macro_right_tab: macro_right_tab {
     label = "macro_right_tab";
     #binding-cells = <0>;
     bindings
-          = <&macro_press &kp LEFT_SHIFT &kp LEFT_COMMAND>
-          <&macro_tap &kp L>
+          = <&macro_press &kp LEFT_SHIFT &kp LEFT_COMMAND>,
+          <&macro_tap &kp L>,
           <&macro_release &kp LEFT_SHIFT &kp LEFT_COMMAND>;
 };
 
@@ -14,8 +14,8 @@ macro_left_tab: macro_left_tab {
     #binding-cells = <0>;
     //bindings = <&kp LEFT_COMMAND &kp LEFT_SHIFT &kp H>;
     bindings
-          = <&macro_press &kp LEFT_SHIFT &kp LEFT_COMMAND>
-          <&macro_tap &kp H>
+          = <&macro_press &kp LEFT_SHIFT &kp LEFT_COMMAND>,
+          <&macro_tap &kp H>,
           <&macro_release &kp LEFT_SHIFT &kp LEFT_COMMAND>;
 };
 
@@ -25,8 +25,8 @@ macro_cmd_tab: macro_cmd_tab {
     #binding-cells = <0>;
     //bindings = <&kp LEFT_COMMAND &kp TAB>;
     bindings
-          = <&macro_press &kp LEFT_COMMAND>
-          <&macro_tap &kp TAB>
+          = <&macro_press &kp LEFT_COMMAND>,
+          <&macro_tap &kp TAB>,
           <&macro_release &kp LEFT_COMMAND>;
 };
 
@@ -36,8 +36,8 @@ macro_norm_size: macro_norm_size {
     #binding-cells = <0>;
     //bindings = <&kp LEFT_CONTROL &kp LALT &kp K>;
     bindings
-          = <&macro_press &kp LEFT_CONTROL &kp LALT>
-          <&macro_tap &kp K>
+          = <&macro_press &kp LEFT_CONTROL &kp LALT>,
+          <&macro_tap &kp K>,
           <&macro_release &kp LEFT_CONTROL &kp LALT>;
 };
 
@@ -47,8 +47,8 @@ macro_max_screen: macro_max_screen {
     #binding-cells = <0>;
     //bindings = <&kp LEFT_CONTROL &kp LALT &kp M>;
     bindings
-          = <&macro_press &kp LEFT_CONTROL &kp LALT>
-          <&macro_tap &kp M>
+          = <&macro_press &kp LEFT_CONTROL &kp LALT>,
+          <&macro_tap &kp M>,
           <&macro_release &kp LEFT_CONTROL &kp LALT>;
 };
 
@@ -58,8 +58,8 @@ macro_right_half: macro_right_half {
     #binding-cells = <0>;
     //bindings = <&kp LEFT_CONTROL &kp LALT &kp L>;
     bindings
-          = <&macro_press &kp LEFT_CONTROL &kp LALT>
-          <&macro_tap &kp L>
+          = <&macro_press &kp LEFT_CONTROL &kp LALT>,
+          <&macro_tap &kp L>,
           <&macro_release &kp LEFT_CONTROL &kp LALT>;
 };
 
@@ -69,8 +69,8 @@ macro_left_half: macro_left_half {
     #binding-cells = <0>;
     //bindings = <&kp LEFT_CONTROL &kp LALT &kp H>;
     bindings
-          = <&macro_press &kp LEFT_CONTROL &kp LALT>
-          <&macro_tap &kp H>
+          = <&macro_press &kp LEFT_CONTROL &kp LALT>,
+          <&macro_tap &kp H>,
           <&macro_release &kp LEFT_CONTROL &kp LALT>;
 };
 
