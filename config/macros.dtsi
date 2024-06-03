@@ -1,3 +1,15 @@
+macro_norm_size: macro_norm_size{
+compatible = "zmk,behavior-macro";
+label = "macro_norm_size";
+#binding-cells = <0>;
+bindings = <&kp LEFT_CONTROL>, <&kp LALT>, <&kp K>;
+};
+macro_max_screen: macro_max_screen{
+compatible = "zmk,behavior-macro";
+label = "macro_max_screen";
+#binding-cells = <0>;
+bindings = <&kp LEFT_CONTROL>, <&kp LALT>, <&kp M>;
+};
 macro_right_half: macro_right_half{
 compatible = "zmk,behavior-macro";
 label = "macro_right_half";
