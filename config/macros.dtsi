@@ -1,3 +1,9 @@
+macro_cmd_tab: macro_cmd_tab{
+compatible = "zmk,behavior-macro";
+label = "macro_cmd_tab";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp TAB>;
+};
 macro_norm_size: macro_norm_size{
 compatible = "zmk,behavior-macro";
 label = "macro_norm_size";
