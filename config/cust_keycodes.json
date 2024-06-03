@@ -1,1 +1,19 @@
-[]
+[
+	{
+		"names": [
+			"macro_left_half"
+		],
+		"description": "macro_left_half",
+		"clarify": false,
+		"documentation": "",
+		"os": {
+			"windows": true,
+			"linux": true,
+			"android": true,
+			"macos": true,
+			"ios": true
+		},
+		"footnotes": {},
+		"type": "UD"
+	}
+]
