@@ -1,124 +1,33 @@
-macro_right_tab: macro_right_tab {
-    compatible = "zmk,behavior-macro";
-    label = "macro_right_tab";
-    #binding-cells = <0>;
-    bindings
-          = <&macro_press &kp LEFT_SHIFT &kp LEFT_COMMAND>,
-          <&macro_tap &kp L>,
-          <&macro_release &kp LEFT_SHIFT &kp LEFT_COMMAND>;
-};
-
-macro_next_window: macro_next_window {
-    compatible = "zmk,behavior-macro";
-    label = "macro_next_window";
-    #binding-cells = <0>;
-    bindings
-          = <&macro_press &kp LEFT_CONTROL &kp LALT>,
-          <&macro_tap &kp J>,
-          <&macro_release &kp LEFT_CONTROL &kp LALT>;
-};
-
-macro_left_tab: macro_left_tab {
-    compatible = "zmk,behavior-macro";
-    label = "macro_left_tab";
-    #binding-cells = <0>;
-    //bindings = <&kp LEFT_COMMAND &kp LEFT_SHIFT &kp H>;
-    bindings
-          = <&macro_press &kp LEFT_SHIFT &kp LEFT_COMMAND>,
-          <&macro_tap &kp H>,
-          <&macro_release &kp LEFT_SHIFT &kp LEFT_COMMAND>;
-};
-
-macro_cmd_tab: macro_cmd_tab {
-    compatible = "zmk,behavior-macro";
-    label = "macro_cmd_tab";
-    #binding-cells = <0>;
-    //bindings = <&kp LEFT_COMMAND &kp TAB>;
-    bindings
-          = <&macro_press &kp LEFT_COMMAND>,
-          <&macro_tap &kp TAB>,
-          <&macro_release &kp LEFT_COMMAND>;
-};
-
-macro_norm_size: macro_norm_size {
-    compatible = "zmk,behavior-macro";
-    label = "macro_norm_size";
-    #binding-cells = <0>;
-    //bindings = <&kp LEFT_CONTROL &kp LALT &kp K>;
-    bindings
-          = <&macro_press &kp LEFT_CONTROL &kp LALT>,
-          <&macro_tap &kp K>,
-          <&macro_release &kp LEFT_CONTROL &kp LALT>;
-};
-
-macro_max_screen: macro_max_screen {
-    compatible = "zmk,behavior-macro";
-    label = "macro_max_screen";
-    #binding-cells = <0>;
-    //bindings = <&kp LEFT_CONTROL &kp LALT &kp M>;
-    bindings
-          = <&macro_press &kp LEFT_CONTROL &kp LALT>,
-          <&macro_tap &kp M>,
-          <&macro_release &kp LEFT_CONTROL &kp LALT>;
-};
-
-macro_right_half: macro_right_half {
-    compatible = "zmk,behavior-macro";
-    label = "macro_right_half";
-    #binding-cells = <0>;
-    //bindings = <&kp LEFT_CONTROL &kp LALT &kp L>;
-    bindings
-          = <&macro_press &kp LEFT_CONTROL &kp LALT>,
-          <&macro_tap &kp L>,
-          <&macro_release &kp LEFT_CONTROL &kp LALT>;
-};
-
-macro_left_half: macro_left_half {
-    compatible = "zmk,behavior-macro";
-    label = "macro_left_half";
-    #binding-cells = <0>;
-    //bindings = <&kp LEFT_CONTROL &kp LALT &kp H>;
-    bindings
-          = <&macro_press &kp LEFT_CONTROL &kp LALT>,
-          <&macro_tap &kp H>,
-          <&macro_release &kp LEFT_CONTROL &kp LALT>;
-};
-
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
 #binding-cells = <0>;
 bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
 };
-
 macro_dquotes: macro_dquotes{
 compatible = "zmk,behavior-macro";
 label = "macro_dquotes";
 #binding-cells = <0>;
 bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
 };
-
 macro_braces: macro_braces{
 compatible = "zmk,behavior-macro";
 label = "macro_braces";
 #binding-cells = <0>;
 bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
 };
-
 macro_parens: macro_parens{
 compatible = "zmk,behavior-macro";
 label = "macro_parens";
 #binding-cells = <0>;
 bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
 };
-
 macro_brackets: macro_brackets{
 compatible = "zmk,behavior-macro";
 label = "macro_brackets";
 #binding-cells = <0>;
 bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
 };
-
 macro_kinesis: macro_kinesis{
 compatible = "zmk,behavior-macro";
 label = "macro_kinesis";

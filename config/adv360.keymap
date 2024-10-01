@@ -41,7 +41,7 @@
         default_layer {
             bindings = <
  &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5                    &tog 1                                                                                                &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
-   &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T                     &kp LEFT_CONTROL                                                                                      &macro_left_tab   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
+   &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T                     &mo 4                                                                                      &macro_left_tab   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
    &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G            &macro_cmd_tab  &kp LEFT_COMMAND   &kp LALT                  &kp RIGHT_CONTROL  &kp RIGHT_COMMAND  &macro_right_tab   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
  &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                              &kp MINUS                          &kp PG_UP                                        &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
      &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                          &kp BSPC           &kp DEL  &kp EQUAL                          &kp PG_DN          &kp ENTER         &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3            &kp F4              &kp F5        &kp F6                       &tog 1                                                              &mo 3                &kp F7                 &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
- &trans  &trans  &trans  &kp C_PLAY_PAUSE  &kp C_FAST_FORWARD  &kp C_VOL_UP            &macro_max_screen                                                   &macro_left_half  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans   &trans   &trans   &trans
- &trans  &trans  &trans            &trans        &kp C_REWIND  &kp C_VOL_DN             &macro_norm_size  &trans  &trans                  &trans  &trans  &macro_right_half        &kp LEFT_BRACE        &kp RIGHT_BRACE  &trans   &trans   &trans   &trans
- &trans  &trans  &trans            &trans              &trans        &trans                                       &trans                  &trans                                 &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &trans   &trans   &trans   &trans
- &trans  &trans  &trans            &trans              &trans                                     &trans  &trans  &trans                  &trans  &trans             &trans                                       &macro_next_window  &trans   &trans   &trans   &trans
+ &kp F1  &kp F2  &kp F3            &kp F4              &kp F5        &kp F6                       &tog 1                                                              &mo 3            &kp F7             &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+ &trans  &trans  &trans  &kp C_PLAY_PAUSE        &kp C_REWIND  &kp C_VOL_UP            &macro_max_screen                                                   &macro_left_half         &kp EQUAL          &kp MINUS  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans            &trans  &kp C_FAST_FORWARD  &kp C_VOL_DN             &macro_norm_size  &trans  &trans                  &trans  &trans  &macro_right_half    &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans            &trans              &trans        &trans                                       &trans                  &trans                             &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans            &trans              &trans                                     &trans  &trans  &trans                  &trans  &trans             &trans                               &trans  &trans   &trans   &trans   &trans
             >;
         };
 
